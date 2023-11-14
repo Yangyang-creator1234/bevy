@@ -342,6 +342,17 @@ category = "2D Rendering"
 wasm = true
 
 [[example]]
+name = "learn_rotation"
+path = "examples/2d/learn_rotation.rs"
+doc-scrape-examples = true
+
+[package.metadata.example.learn_rotation]
+name = "2D learn_rotation"
+description = "Demonstrates rotating entities in 2D with quaternions"
+category = "2D Rendering"
+wasm = true
+
+[[example]]
 name = "mesh2d"
 path = "examples/2d/mesh2d.rs"
 doc-scrape-examples = true
@@ -392,6 +403,17 @@ doc-scrape-examples = true
 
 [package.metadata.example.custom_gltf_vertex_attribute]
 name = "Custom glTF vertex attribute 2D"
+description = "Renders a glTF mesh in 2D with a custom vertex attribute"
+category = "2D Rendering"
+wasm = true
+
+[[example]]
+name = "learn_custom_gltf_vertex_attribute"
+path = "examples/2d/learn_custom_gltf_vertex_attribute.rs"
+doc-scrape-examples = true
+
+[package.metadata.example.learn_custom_gltf_vertex_attribute]
+name = "Learn Custom glTF vertex attribute 2D"
 description = "Renders a glTF mesh in 2D with a custom vertex attribute"
 category = "2D Rendering"
 wasm = true
@@ -547,6 +569,17 @@ doc-scrape-examples = true
 
 [package.metadata.example.3d_gizmos]
 name = "3D Gizmos"
+description = "A scene showcasing 3D gizmos"
+category = "3D Rendering"
+wasm = true
+
+[[example]]
+name = "learn_3d_gizmos"
+path = "examples/3d/learn_3d_gizmos.rs"
+doc-scrape-examples = true
+
+[package.metadata.example.learn_3d_gizmos]
+name = "Learn 3D Gizmos"
 description = "A scene showcasing 3D gizmos"
 category = "3D Rendering"
 wasm = true
